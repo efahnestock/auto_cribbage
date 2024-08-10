@@ -1,2 +1,2 @@
-# crib_walk
+# Auto cribbage!
 Cribbage
