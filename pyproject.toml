@@ -3,7 +3,7 @@ name = "auto_cribbage"
 version = "0.1.0"
 description = "Automatic cribbage"
 authors = [
-    {name = "Ethan Fahnestock, Jacob Fahnestock", email = "jrfz31@gmail.com, ekf@mit.edu"},
+    {name = "Ethan Fahnestock, Jacob Fahnestock", email = "ekf@mit.edu"},
 ]
 dependencies = []
 requires-python = ">=3.12"
