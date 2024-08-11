@@ -9,11 +9,11 @@ card_values = {
 def get_card_value(card: str)->int:
     return card_values[card[-1]]
 
-def draw_cards(num_cards: int)-> list[str]:
+def draw_cards(num_cards: int, random_state: random.Random)-> list[str]:
     """Draw N cards from a complete deck"""
     full_deck = []
     for suit in ['H', 'D', 'S', 'C']:
         for number in card_values.keys():
             full_deck.append(suit+number)
 
-    return random.sample(full_deck, num_cards)
+    return random_state.sample(full_deck, num_cards)
